@@ -1,0 +1,103 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(234, 231, 231)!important;
+}
+.wrapper{
+    margin: auto 2%;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+}
+.bold{
+    font-weight: 800;
+    font-size: 50px;
+}
+.img{
+    transform: scale(0.6, 0.5);
+    border-radius: 5%;
+}
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+.header{
+    background-color: black;
+    padding: 1% 0;
+    color: white;
+    display: flex;
+    margin-bottom: 2%;
+}
+.my-nav{
+    position: absolute;
+    display: flex;
+    color: white;
+    right: 20%;
+}
+.my-nav a{
+    margin: auto 5%;
+    color: white!important;
+    text-decoration: none;
+}
+.about{
+    background-image: url("https://wallpapercave.com/wp/wp1927677.jpg");
+    border-radius: 2%;
+    z-index: -1;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.about-content{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 50%;
+}
+.about-content p{
+    color: white;
+}
+.about-video{
+    margin: auto 5%;
+    width: 50%;
+}
+.about-video>:nth-child(1){
+    margin-top: 10%;
+}
+.p-details{
+    background-image: url("https://media.istockphoto.com/id/1351965170/vector/artificial-intelligence-human-head-outline-futuristic-technology-and-engineering-concept.jpg?s=612x612&w=0&k=20&c=S-shF-ivAYHGSz0OuymPDvyVcyOtyZAdxGoToKuBltU=");
+    background-size: contain;
+    border-radius: 2%;
+    height: 90vh;
+    margin: 1% 0;
+}
+.details{
+    margin-top: 12%;
+    margin-left: 3%;
+    background-color: white;
+    padding: 2% 3%;
+    border: solid 4px black;
+}
+.details:hover{
+    box-shadow: 0 0 11px black;
+    transform: scale(1.1);
+}
+.robot{
+    margin-top: 8%;
+}
+.robot:hover{
+    transform: scale(0.65,0.55);
+    box-shadow: 0 0 11px black;
+}
+#team{
+    background-color: aqua;
+    text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#footer{
+    padding: 15% 7%;
+    text-align: center;
+}
+.social{
+    margin: 0 1.5% 2%;
+}
